@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.mapdiv path{
+  fill: beige;
+  stroke: black;
+
+}
+
+
+.hi :hover{
+    fill: yellow;
+}
+
+.mapdiv :hover{
+    fill:red;
+}
