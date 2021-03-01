@@ -16,7 +16,6 @@ $('#AL').hover(alFunction);
 
 
 function flFunction() {
-  $("#FL").style.color= "red";
  $("#spoutput").html(
    "<h1>FLORIDA</h1>"
 
