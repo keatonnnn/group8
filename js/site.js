@@ -5,16 +5,6 @@
  * (c) Copyright
  **/
 
-
-//  function caFunction() {
-//   $("#spoutput").html(
-//   "<h1>CALIFORNIA</h1> <br> <p>California is the most perfect state in the world which is why it gets a pass! I love nancy pelosi!!!!!</p>"
-//
-//   );
-//  }
-// $('#CA').hover(caFunction);
-
-
 //these functions trigger the variable html within #spoutput
 
 function alFunction() {
@@ -22,8 +12,6 @@ function alFunction() {
    "<h1>ALABAMA</h1>");
 }
 $('#AL').hover(alFunction);
-
-
 
 
 
@@ -101,3 +89,15 @@ function txFunction() {
 );
 }
 $('#TX').hover(txFunction);
+
+
+//end spoutput functions
+
+// create toggle onClick function
+function toggle_visibility(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+      e.style.display = 'none';
+   else
+      e.style.display = 'block';
+}
