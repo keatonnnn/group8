@@ -3,13 +3,6 @@
 
 
 
-
-
-
-
-
-
-
 .mapdiv :hover{
     fill:#FF606A;
 }
@@ -20,10 +13,6 @@
 }
 
 #spoutput{
-  background-color: #FF606A;
-  position:fixed;
-  left:800px;
-  top:200px;
 
 
 }
