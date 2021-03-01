@@ -10,17 +10,20 @@
 
 
 
-.mapdiv path{
-  fill: beige;
-  stroke: black;
-
-}
-
-
-.hi :hover{
-    fill: yellow;
-}
-
 .mapdiv :hover{
-    fill:red;
+    fill:#FF606A;
+}
+
+.mapdiv path{
+  fill: #ADFFB4;
+  stroke: black;
+}
+
+#spoutput{
+  background-color: #FF606A;
+  position:fixed;
+  left:800px;
+  top:200px;
+
+
 }
