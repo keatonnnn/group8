@@ -5,6 +5,12 @@
  * (c) Copyright
  **/
 
+ //Topic 1: clickable flags
+   //click on flag images to make text appear
+   $(".popuptext").on('click', function () {
+       $(this).children(".hidden").toggle();
+   });
+
 //these functions trigger the variable html within #spoutput
 
 function alFunction() {
