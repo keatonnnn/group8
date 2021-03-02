@@ -11,7 +11,9 @@
        $(this).children(".hidden").toggle();
    });
 
-//these functions trigger the variable html within #spoutput
+
+
+//Topic 2: these functions trigger the variable html within #spoutput
 
 function alFunction() {
  $("#spoutput").html(
@@ -98,15 +100,6 @@ $('#TX').hover(txFunction);
 
 //end spoutput functions
 
-// create toggle onClick function
-function toggle_visibility(id) {
-   var e = document.getElementById(id);
-   if(e.style.display == 'block')
-      e.style.display = 'none';
-   else
-      e.style.display = 'block';
-}
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -135,3 +128,27 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//toggling visibility of panels 1-6 for topic 3
+$("#flip1").click(function() {
+  $("#panel1").toggle();
+})
+
+$("#flip2").click(function() {
+  $("#panel2").toggle();
+})
+
+$("#flip3").click(function() {
+  $("#panel3").toggle();
+})
+
+$("#flip4").click(function() {
+  $("#panel4").toggle();
+})
+
+$("#flip5").click(function() {
+  $("#panel5").toggle();
+})
+$("#flip6").click(function() {
+  $("#panel6").toggle();
+})
