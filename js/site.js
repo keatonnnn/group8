@@ -9,7 +9,8 @@
    //click on flag images to make text appear
    $(".popuptext").on('click', function () {
        $(this).children(".hidden").toggle();
-   });
+   }
+ );
 
 
 
