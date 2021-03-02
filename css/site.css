@@ -2,7 +2,7 @@
 
 
 
-
+/* map shit */
 .mapdiv :hover{
     fill:#FF606A;
 }
@@ -13,6 +13,23 @@
 }
 
 #spoutput{
+}
 
 
+
+
+
+/* colors of the panels, display is default invisible */
+#flip1, #flip2, #flip3, #flip4, #flip5, #flip6 {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border: solid 1px #a6d8a8;
+  margin: auto;
+}
+
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
+  display: none;
 }
